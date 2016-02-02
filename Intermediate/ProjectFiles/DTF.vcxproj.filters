@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DTF.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{784B013D-BC75-4ACB-9F5C-F7A589782B80}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DTF.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DTFEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D2C8C5A7-3B12-4D57-BA70-FB4DB40F6155}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DTF">
+      <UniqueIdentifier>{23148C1B-D3C5-4E3C-A12D-E654528A6415}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DTF\DTF.Build.cs">
+      <Filter>Source\DTF</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DTF\DTF.cpp">
+      <Filter>Source\DTF</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DTF\DTF.h">
+      <Filter>Source\DTF</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DTF\DTFGameMode.cpp">
+      <Filter>Source\DTF</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DTF\DTFGameMode.h">
+      <Filter>Source\DTF</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\DTF\DTFHUD.h">
+      <Filter>Source\DTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DTF\DTFCharacter.h">
+      <Filter>Source\DTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DTF\DTFPController.h">
+      <Filter>Source\DTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DTF\DTFGameInstance.h">
+      <Filter>Source\DTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DTF\DTFActiveCardBase.h">
+      <Filter>Source\DTF</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\DTF\DTFHUD.cpp">
+      <Filter>Source\DTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DTF\DTFCharacter.cpp">
+      <Filter>Source\DTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DTF\DTFPController.cpp">
+      <Filter>Source\DTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DTF\DTFGameInstance.cpp">
+      <Filter>Source\DTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DTF\DTFActiveCardBase.cpp">
+      <Filter>Source\DTF</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
